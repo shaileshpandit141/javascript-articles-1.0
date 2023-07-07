@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../JS-logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+  <title>JavaScript Variables</title>
+</head>
+
+<body>
+  <section class="section__container">
+    <article class="section__container__article">
+      <h1>JavaScript Variables</h1>
+      <p>In JavaScript, variables are declared using the <span class="important">var</span>, <span class="important">let</span>, or <span class="important">const</span>
+        keywords. Here's a short summary of these variable declarations:
+      </p>
+
+      <ul>
+        <li>
+          <p><strong>var</strong>: The <span class="important">var</span> keyword declares a variable with function scope or global scope. Variables declared with var are hoisted to the top of their scope and can be redeclared and reassigned.</p>
+          <p>Example:</p>
+          <pre class="pre__code">
+            <code>
+  var X = 5;            
+            </code>
+          </pre>
+        </li>
+        <li>
+          <p><strong>let</strong>: The <span class="important">let</span> keyword declares a block-scoped variable that can be reassigned. Variables declared with <span class="important">let</span> are not hoisted and are limited to the block (enclosed within curly braces) where they are defined.</p>
+          <p>Example:</p>
+          <pre class="pre__code">
+            <code>
+  let Y = 50;            
+            </code>
+          </pre>
+        </li>
+        <li>
+          <p><strong>const</strong>: The <span class="important">const</span> keyword declares a block-scoped variable that cannot be reassigned. It is a constant and its value remains the same throughout the program. Like <span class="important">let</span>, <span class="important">const</span> variables are not hoisted.</p>
+          <p>Example:</p>
+          <pre class="pre__code">
+            <code>
+  const Z = 1000;            
+            </code>
+          </pre>
+        </li>
+      </ul>
+      <p>These are the basic variable declaration keywords in JavaScript, and their usage depends on the specific requirements of your program.</p>
+    </article>
+  </section>
+</body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../JS-logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+  <title>JavaScript Variable naming conventions</title>
+</head>
+
+<body>
+  <section class="section__container">
+    <article class="section__container__article">
+      <h1>JavaScript Variable naming conventions:</h1>
+      <ul>
+        <li>
+            <p><strong>Use descriptive names:</strong> Choose meaningful and descriptive names that accurately represent the purpose or content of the variable.</p>
+        </li>
+        <li>
+            <p><strong>Camel case:</strong> Start variable names with a lowercase letter and use uppercase letters for subsequent words.</p>
+            <p>For example</p>
+            <pre>
+                <code>
+  const myVariableName = 'data';
+                </code>
+            </pre>
+        </li>
+        <li>
+            <p><strong>Avoid reserved words:</strong> Do not use JavaScript reserved words (<span class="important">e.g., if, while, function</span>) as variable names.</p>
+        </li>
+        <li>
+            <p><strong>Avoid special characters:</strong> Variable names should consist of letters, numbers, underscores, or dollar signs. They cannot start with a number.</p>
+        </li>
+        <li>
+            <p><strong>Case sensitivity:</strong> JavaScript is case-sensitive, so <span class="important">myVariable</span> and <span class="important">myvariable</span> are considered different variables.</p>
+        </li>
+        <li>
+            <p><strong>Use lowercase for built-in objects:</strong> When working with built-in JavaScript objects, like <span class="important">Math</span> or <span class="important">document</span>, use lowercase initial letters.</p>
+        </li>
+        <li>
+            <p><strong>Constants:</strong> For constants, use uppercase letters with underscores between words. For example: <span class="important">MAX_SIZE</span>.</p>
+        </li>
+      </ul>
+    </article>
+  </section>
+</body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+</html>

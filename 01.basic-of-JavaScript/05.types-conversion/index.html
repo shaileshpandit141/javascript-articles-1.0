@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../JS-logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css"
+    />
+    <title>JavaScript Data Types</title>
+  </head>
+
+  <body>
+    <section class="section__container">
+      <article class="section__container__article">
+        <h1>Type conversion in JavaScript</h1>
+        <p>
+          Type conversion, also known as type casting, refers to the process of
+          converting a value from one data type to another in JavaScript.
+          JavaScript provides several methods and operators for performing type
+          conversion. Here are some common ways to convert data types:
+        </p>
+
+        <ul class="list__items">
+          <h2>List of JavaScript Type conversion.</h2>
+          <li>1. String Conversion</li>
+          <li>2. Number Conversion</li>
+          <li>3. Boolean Conversion</li>
+          <li>4. Implicit Type Conversion</li>
+        </ul>
+
+        <ul>
+          <li>
+            <p><strong>String Conversion:</strong> To convert a value to a string, you can use the <span class="important">toString()</span> method or the <span class="important">String()</span> function.</p>
+            <p>For example:</p>
+            <pre>
+              <code>
+  ar number = 42;
+  var string = number.toString();   // "42"
+  var anotherString = String(number);   // "42"
+
+              </code>
+            </pre>
+          </li>
+
+          <li>
+            <p><strong>Number Conversion:</strong> To convert a value to a number, you can use the <span class="important">parseInt()</span> or <span class="important">parseFloat()</span> functions, or the unary plus (+) operator.</p>
+            <p>For example:</p>
+            <pre>
+              <code>
+  var string = "42";
+  var number = parseInt(string);    // 42
+  var anotherNumber = +string;    // 42
+
+              </code>
+            </pre>
+          </li>
+
+          <li>
+            <p><strong>Boolean Conversion: </strong> To convert a value to a boolean, you can use the <span class="important">Boolean()</span> function or apply a logical operator like !! (double negation).</p>
+            <p>For example:</p>
+            <pre>
+              <code>
+  var value = "Hello";
+  var boolean = Boolean(value);    // true
+  var anotherBoolean = !!value;    // true
+
+              </code>
+            </pre>
+          </li>
+
+          <li>
+            <p><strong>Implicit Type Conversion:</strong> JavaScript also performs implicit type conversion automatically in certain situations, such as when using arithmetic operators with different data types.</p>
+            <p>For example:</p>
+            <pre>
+              <code>
+  var result = 5 + "3";    // "53" (implicit conversion of number to string)
+  var total = "10" - 5;    // 5 (implicit conversion of string to number)
+              </code>
+            </pre>
+          </li>
+        </ul>
+
+        <p>It's important to be aware of the potential issues and unexpected behavior that can arise from type conversions, especially with implicit conversions. It's often a good practice to explicitly convert data types when needed to ensure the desired results.</p>
+
+
+      </article>
+    </section>
+  </body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+  <script>
+    hljs.highlightAll();
+  </script>
+</html>
