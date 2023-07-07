@@ -1,4 +1,3 @@
-# Articles
 
 This repository houses a collection of JavaScript articles designed using HTML and CSS. The purpose of this repository is to provide a platform for showcasing and sharing articles with an attractive and visually appealing presentation.
 
@@ -19,6 +18,23 @@ The articles in this repository are designed using the following technologies:
 __HTML:__ The articles' content and structure are created using HTML (Hypertext Markup Language), which forms the backbone of the web pages.
 
 __CSS:__ The articles' styling and layout are implemented using CSS (Cascading Style Sheets), which enhances the visual presentation and aesthetics of the articles.
+
+# Topics wise view live page.
+
+## 1. Basic of JavaScript
+
+* [JavaScript](https://shaileshpandit141.github.io/JavaScript-Articles-1.0/01.basic-of-JavaScript/00.JavaScript/)
+
+* [JavaScript variables](https://shaileshpandit141.github.io/JavaScript-Articles-1.0/01.basic-of-JavaScript/01.variables/)
+
+* [JavaScript variable naming convention](https://shaileshpandit141.github.io/JavaScript-Articles-1.0/01.basic-of-JavaScript/02.variable-naming-convention/)
+
+* [JavaScript data types](https://shaileshpandit141.github.io/JavaScript-Articles-1.0/01.basic-of-JavaScript/03.data-types/)
+
+* [JavaScript arithmetic oprations](https://shaileshpandit141.github.io/JavaScript-Articles-1.0/01.basic-of-JavaScript/04.arithmetic-oprations/)
+
+* [JavaScript types conversion](https://shaileshpandit141.github.io/JavaScript-Articles-1.0/01.basic-of-JavaScript/05.types-conversion/)
+
 
 
 ## How to Run the Application
