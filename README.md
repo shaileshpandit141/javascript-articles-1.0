@@ -44,7 +44,7 @@ To run the Article Repo application locally on your machine, follow these steps:
 1. Clone the repository to your local machine using the following command:
 
     ```bash
-        git clone https://github.com/shaileshpandit141/Articles.git
+        git clone https://github.com/shaileshpandit141/JavaScript-Articles-1.0.git
     ```
 
 2. Navigate to the project directory:
